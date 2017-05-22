@@ -521,6 +521,7 @@ public class GetShareDataList {
         viewInfo.setViewType(ViewInflate.ViewInflateBuilder.ViewType.TextView.toString());
         viewInfo.setViewId(110003);
         viewInfo.setMarginLeft(5);
+        viewInfo.setMarginBottom(2);
         ruleInfos = new ArrayList<>();
         ruleInfos.add(new RuleInfo(RIGHT_OF,110002));
         ruleInfos.add(new RuleInfo(ALIGN_BOTTOM,110000));
